@@ -4,8 +4,7 @@ namespace pokedex.Models
 {
     public class Pokemon
     {
-        public string? Id { get; set; }  // Add this Id field
-
+        public string? Id { get; set; }  
         public string? Name { get; set; }
         public string? Type { get; set; }
         public string? Ability { get; set; }
